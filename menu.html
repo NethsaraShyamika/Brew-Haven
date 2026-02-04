@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu - Brew Haven Coffee Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="./images/logo.png" alt="Brew Haven Logo" class="logo-img" />
+          Brew Haven
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="hours.html">Hours</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="page-header">
+      <h1>Our Complete Menu</h1>
+      <p>Discover our handcrafted beverages and freshly baked treats</p>
+    </div>
+
+    <div class="page-container">
+      <div class="left-box">
+        <img src="./images/logo.png" alt="Brew Haven Logo" class="menu-logo"/>
+        <h2>Categories</h2>
+        <ul>
+          <li>
+            <a href="#hot">
+              <span class="category-icon-small">☕</span>
+              Hot Coffees</a
+            >
+          </li>
+          <li>
+            <a href="#cold">
+              <span class="category-icon-small">🧊</span>
+              Cold Beverages</a
+            >
+          </li>
+          <li>
+            <a href="#treats">
+              <span class="category-icon-small">🥐</span>
+              Pastries & Treats</a
+            >
+          </li>
+          <li>
+            <a href="#special">
+              <span class="category-icon-small">✨</span>
+              Specialty Drinks</a
+            >
+          </li>
+        </ul>
+
+        <div class="print-menu">
+          <button class="print-btn" onclick="window.print()">
+            🖨️ Print Menu
+          </button>
+        </div>
+      </div>
+
+      <div class="right-box">
+        <div class="menu-category" id="hot">
+          <div class="category-header">
+            <span class="category-icon">☕</span>
+            <h2>Hot Coffee</h2>
+          </div>
+          <dl>
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Espresso</dt>
+                <dd>
+                  A rich and bold single shot of pure coffee perfection. Made
+                  from premium Italian roasted beans, extracted at perfect
+                  pressure for that authentic café experience.
+                </dd>
+              </div>
+              <span class="price">$3.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Double Espresso</dt>
+                <dd>
+                  Two shots of our signature espresso for those who need an
+                  extra boost. Intensely flavorful with a smooth, velvety crema
+                  on top.
+                </dd>
+              </div>
+              <span class="price">$4.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Cappuccino</dt>
+                <dd>
+                  Velvety foam meets espresso in perfect harmony. Equal parts
+                  espresso, steamed milk, and microfoam topped with a dusting of
+                  cocoa powder.
+                </dd>
+              </div>
+              <span class="price">$4.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Caffè Latte</dt>
+                <dd>
+                  Smooth steamed milk with a touch of espresso. Our most popular
+                  drink featuring creamy milk and a double shot of espresso with
+                  beautiful latte art.
+                </dd>
+              </div>
+              <span class="price">$4.75</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Mocha</dt>
+                <dd>
+                  Decadent chocolate meets espresso bliss. Premium dark
+                  chocolate syrup, espresso, and steamed milk topped with
+                  whipped cream and chocolate shavings.
+                </dd>
+              </div>
+              <span class="price">$5.25</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Americano</dt>
+                <dd>
+                  Espresso diluted with hot water for a smooth taste. The
+                  perfect balance of strength and smoothness, similar to drip
+                  coffee but with espresso's rich flavor.
+                </dd>
+              </div>
+              <span class="price">$3.75</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Flat White</dt>
+                <dd>
+                  Microfoam milk with double espresso shot. An Australian
+                  favorite featuring velvety textured milk and a strong coffee
+                  flavor with thin layer of foam.
+                </dd>
+              </div>
+              <span class="price">$4.80</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Macchiato</dt>
+                <dd>
+                  Espresso "marked" with a dollop of foamed milk. Strong, bold
+                  espresso with just a touch of milk to soften the intensity.
+                </dd>
+              </div>
+              <span class="price">$4.00</span>
+            </div>
+          </dl>
+        </div>
+
+        <div class="menu-category" id="cold">
+          <div class="category-header">
+            <span class="category-icon">🧊</span>
+            <h2>Cold Beverages</h2>
+          </div>
+          <dl>
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Cold Brew</dt>
+                <dd>
+                  Refreshing slow-steeped coffee served over ice. Brewed for 16
+                  hours for a smooth, naturally sweet flavor with low acidity
+                  and high caffeine content.
+                </dd>
+              </div>
+              <span class="price">$5.00</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Iced Latte</dt>
+                <dd>
+                  Chilled espresso with cold milk over ice. Our classic latte
+                  served cold, perfect for hot days with the same great espresso
+                  flavor.
+                </dd>
+              </div>
+              <span class="price">$5.25</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Iced Americano</dt>
+                <dd>
+                  Espresso shots over ice with cold water. A refreshing, strong
+                  coffee drink that's less creamy than an iced latte but equally
+                  delicious.
+                </dd>
+              </div>
+              <span class="price">$4.25</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Frappuccino</dt>
+                <dd>
+                  Blended coffee drink with ice and whipped cream. Our signature
+                  frozen beverage combining coffee, milk, ice, and your choice
+                  of flavoring, topped with whipped cream.
+                </dd>
+              </div>
+              <span class="price">$5.75</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Iced Mocha</dt>
+                <dd>
+                  Cold version of our popular mocha with chocolate and espresso.
+                  Rich chocolate syrup, espresso, milk, and ice, topped with
+                  whipped cream.
+                </dd>
+              </div>
+              <span class="price">$5.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Fresh Orange Juice</dt>
+                <dd>
+                  Freshly squeezed oranges, pure and natural. No added sugar or
+                  preservatives, just pure vitamin C-packed goodness from
+                  locally sourced oranges.
+                </dd>
+              </div>
+              <span class="price">$4.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Iced Tea</dt>
+                <dd>
+                  Refreshing brewed tea served cold with lemon. Choose from
+                  black tea, green tea, or peach tea, lightly sweetened and
+                  garnished with fresh lemon.
+                </dd>
+              </div>
+              <span class="price">$3.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Lemonade</dt>
+                <dd>
+                  House-made fresh lemonade with real lemons. Perfectly balanced
+                  sweet and tart, made fresh daily with pure cane sugar and
+                  filtered water.
+                </dd>
+              </div>
+              <span class="price">$3.75</span>
+            </div>
+          </dl>
+        </div>
+
+        <div class="menu-category" id="treats">
+          <div class="category-header">
+            <span class="category-icon">🥐</span>
+            <h2>Pastries & Treats</h2>
+          </div>
+          <dl>
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Butter Croissant</dt>
+                <dd>
+                  Flaky, buttery French pastry baked fresh daily. Made with
+                  premium European butter and laminated dough for that perfect
+                  crispy exterior and soft interior.
+                </dd>
+              </div>
+              <span class="price">$3.25</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Chocolate Croissant</dt>
+                <dd>
+                  Our butter croissant filled with rich dark chocolate. Two bars
+                  of premium Belgian chocolate wrapped in layers of buttery
+                  pastry.
+                </dd>
+              </div>
+              <span class="price">$3.75</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Blueberry Muffin</dt>
+                <dd>
+                  Moist muffin loaded with fresh blueberries. Baked fresh every
+                  morning with real butter, topped with sparkling sugar crystals
+                  for a delightful crunch.
+                </dd>
+              </div>
+              <span class="price">$3.75</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Chocolate Chip Muffin</dt>
+                <dd>
+                  Classic muffin packed with chocolate chips. Soft, fluffy, and
+                  studded with semi-sweet chocolate chips throughout.
+                </dd>
+              </div>
+              <span class="price">$3.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Chocolate Cake</dt>
+                <dd>
+                  Rich, decadent chocolate layer cake slice. Three layers of
+                  moist chocolate cake with chocolate ganache frosting, perfect
+                  with coffee.
+                </dd>
+              </div>
+              <span class="price">$4.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Carrot Cake</dt>
+                <dd>
+                  Spiced carrot cake with cream cheese frosting. Made with fresh
+                  carrots, walnuts, pineapple, and warming spices, topped with
+                  rich cream cheese icing.
+                </dd>
+              </div>
+              <span class="price">$4.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Almond Biscotti</dt>
+                <dd>
+                  Crunchy Italian cookie perfect for dipping. Twice-baked with
+                  whole almonds and hints of vanilla, ideal for dunking in your
+                  coffee or espresso.
+                </dd>
+              </div>
+              <span class="price">$2.75</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Chocolate Chip Cookie</dt>
+                <dd>
+                  Classic homemade cookie with gooey chocolate. Large, thick
+                  cookies with a crispy edge and chewy center, loaded with
+                  premium chocolate chips.
+                </dd>
+              </div>
+              <span class="price">$2.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Cinnamon Roll</dt>
+                <dd>
+                  Warm, gooey cinnamon roll with cream cheese icing. Swirled
+                  with cinnamon sugar butter and topped with generous cream
+                  cheese frosting.
+                </dd>
+              </div>
+              <span class="price">$4.25</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Brownie</dt>
+                <dd>
+                  Fudgy chocolate brownie with walnuts. Dense, chewy, and
+                  intensely chocolatey with a crackly top and studded with
+                  crunchy walnuts.
+                </dd>
+              </div>
+              <span class="price">$3.50</span>
+            </div>
+          </dl>
+        </div>
+
+        <div class="menu-category" id="special">
+          <div class="category-header">
+            <span class="category-icon">✨</span>
+            <h2>Specialty Drinks</h2>
+          </div>
+          <dl>
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Pumpkin Spice Latte</dt>
+                <dd>
+                  Seasonal favorite with warm autumn spices. Espresso, steamed
+                  milk, pumpkin puree, and our signature spice blend with
+                  cinnamon, nutmeg, and cloves.
+                </dd>
+              </div>
+              <span class="price">$5.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Hazelnut Macchiato</dt>
+                <dd>
+                  Espresso with hazelnut syrup and foam art. Double shot
+                  espresso marked with hazelnut-flavored foam and topped with
+                  beautiful latte art.
+                </dd>
+              </div>
+              <span class="price">$5.25</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Affogato</dt>
+                <dd>
+                  Vanilla gelato drowned in hot espresso shot. A delightful
+                  Italian dessert combining hot and cold, bitter and sweet in
+                  perfect harmony.
+                </dd>
+              </div>
+              <span class="price">$5.75</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Coconut Latte</dt>
+                <dd>
+                  Tropical twist with coconut milk and espresso. Made with
+                  creamy coconut milk instead of dairy, naturally sweet with a
+                  hint of tropical flavor.
+                </dd>
+              </div>
+              <span class="price">$5.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Honey Lavender Latte</dt>
+                <dd>
+                  Floral and sweet with local honey infusion. Delicate lavender
+                  syrup combined with local wildflower honey, espresso, and
+                  steamed milk.
+                </dd>
+              </div>
+              <span class="price">$5.75</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Caramel Macchiato</dt>
+                <dd>
+                  Vanilla-flavored latte marked with espresso and caramel.
+                  Vanilla syrup, steamed milk, espresso shots, and sweet caramel
+                  drizzle on top.
+                </dd>
+              </div>
+              <span class="price">$5.50</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Matcha Latte</dt>
+                <dd>
+                  Japanese green tea powder whisked with steamed milk.
+                  Ceremonial grade matcha providing natural energy and
+                  antioxidants with a creamy, earthy flavor.
+                </dd>
+              </div>
+              <span class="price">$5.25</span>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-details">
+                <dt>Chai Latte</dt>
+                <dd>
+                  Spiced black tea latte with warming spices. Traditional Indian
+                  chai with cardamom, cinnamon, ginger, and cloves blended with
+                  steamed milk.
+                </dd>
+              </div>
+              <span class="price">$4.75</span>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Brew Haven Coffee Shop. All rights reserved.</p>
+        <p>123 Coffee Street, Dambulla | Phone: (555) 123-4567</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
